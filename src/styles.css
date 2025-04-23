@@ -1,0 +1,91 @@
+/* Caixa principal */
+.content {
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Linha com duas colunas */
+.game-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Botões da esquerda */
+.interactions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Botões de coleta */
+.interactions button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    min-width: 150px;
+}
+
+/* Painel de melhorias (direita) */
+.upgrade-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Botões de melhorias */
+.upgrade-container button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    min-width: 100px;
+}
+
+/* Caixa de melhorias */
+#upgradeBox {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    width: 250px;
+}
+
+.upgrade-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.pagination button {
+    padding: 3px 6px;
+    font-size: 12px;
+    min-width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Inventário */
+.inventory {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

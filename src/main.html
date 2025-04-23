@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="function.js"></script>
+    <title>ClickClick</title>
+</head>
+<body>
+    <div class="content">
+        <div class="game-layout">
+            <!-- Coluna da esquerda: botões de coleta -->
+            <div class="interactions">
+                <button id="woodCut">Cortar Madeira</button>
+                <button id="stoneCollect">Coletar Pedra</button>
+                <button id="foodPick">Pegar Comida</button>
+            </div>
+    
+            <!-- Coluna da direita: melhorias -->
+            <div class="upgrade-panel">
+                <div class="upgrade-container">
+                    <button id="showUpgrades">Melhorias</button>
+                    <button id="closeUpgrades" style="display: none;">Fechar</button>
+    
+                    <div id="upgradeBox" style="display: none;">
+                        <div id="upgradeList" class="upgrade-list"></div>
+                        <div id="pagination" class="pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="inventory">
+            <p id="wood">Madeira: 0</p>
+            <p id="stone">Pedra: 0</p>
+            <p id="food">Comida: 0</p>
+        </div>
+    </div>
+    
+</body>
+</html>
